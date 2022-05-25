@@ -1,0 +1,27 @@
+{
+  "name": "App Name",
+  "version": "1.0.0",
+  "build": 1,
+  "id": "com.example.appname",
+  "fullscreen": false,
+  "orientation": "default",
+  "plugins": [],
+  "credentials": {
+    "ios": {
+      "ad-hoc": {
+        "name": "NAME",
+        "secret": "SECRET"
+      },
+      "store": {
+        "name": "NAME",
+        "secret": "SECRET"
+      }
+    },
+    "android": {
+      "release": {
+        "name": "NAME",
+        "secret": "SECRET"
+      }
+    }
+  }
+}
