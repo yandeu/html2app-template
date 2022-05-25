@@ -4,7 +4,7 @@
 
 ```console
 # download the template
-npx gitget https://github.com/yandeu/html2app-template
+npx gitget https://github.com/yandeu/html2app-template my-app
 
 # change directory into the template
 cd my-app
@@ -13,7 +13,7 @@ cd my-app
 (linux/macos) zip -r app.zip assets www config.json
 (windows) tar.exe -acvf app.zip www assets config.json
 
-upload app.zip to https://ogchbwmrqry2aeffglxdcjar7u0xvuim.lambda-url.eu-central-1.on.aws/
+# upload app.zip to https://ogchbwmrqry2aeffglxdcjar7u0xvuim.lambda-url.eu-central-1.on.aws/
 ```
 
 ## config.json
