@@ -1,5 +1,6 @@
 {
   "scripts": {
-    "build": "npx -y esbuild@0.14 www/js/index.js --bundle --minify --outfile=www/bundle.min.js"
+    "build": "npm run bundle",
+    "bundle": "npx -y esbuild@0.14 www/js/index.js --bundle --minify --outfile=www/bundle.min.js"
   }
 }
