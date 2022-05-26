@@ -1,2 +1,4 @@
 /app.zip
 /node_modules
+/package-lock.json
+/www/bundle.min.js

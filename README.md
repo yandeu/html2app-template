@@ -9,6 +9,9 @@ npx gitget https://github.com/yandeu/html2app-template my-app
 # change directory into the template
 cd my-app
 
+# build the app (bundle javascript files)
+npm run build
+
 # now zip all files
 (linux/macos) zip -r app.zip assets www config.json
 (windows) tar.exe -acvf app.zip www assets config.json
