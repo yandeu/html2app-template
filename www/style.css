@@ -8,7 +8,7 @@ body {
   user-select: none;
 }
 
-h1 {
+.center {
   position: absolute;
   top: 40%;
   left: 50%;
