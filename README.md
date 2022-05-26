@@ -29,7 +29,7 @@ npm run build
   "id": "com.example.appname",
   "fullscreen": false, // true | false
   "orientation": "default", // "portrait" | "landscape" | "default"
-  "plugins": [], // (not yet but soon)
+  "plugins": [], // (see below)
   // optional add your build credentials:
   "credentials": {
     "ios": {
@@ -51,6 +51,15 @@ npm run build
   }
 }
 ```
+
+## plugins[]
+
+- For now you can only add plugins from the scope [`@capacitor/`](https://www.npmjs.com/org/capacitor) and [`@capacitor-community/`](https://www.npmjs.com/org/capacitor-community).
+- For now you can only add plugins that do not require updating native code.  
+  Example:
+  - `@capacitor/dialog` will work.
+  - `@capacitor/filesystem` will NOT work,  
+    since it requires modifying `AndroidManifest.xml`.
 
 ## www/
 
