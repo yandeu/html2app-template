@@ -1,0 +1,27 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Build App
+        run: npm run build
+
+      - name: Zip all files
+        run: zip -r app.zip assets www config.json
+
+      - name: Check zip files
+        run: |
+          unzip app.zip www/bundle.min.js -d .tmp
+          unzip app.zip config.json -d .tmp
