@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 h1 {
