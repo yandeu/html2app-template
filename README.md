@@ -26,7 +26,7 @@ npm run build
   "name": "App Name",
   "version": "1.0.0", // version in the format [Major].[Minor].[Patch] (string)
   "build": 1, // build in the format [Build] (number)
-  "id": "com.example.appname",
+  "id": "com.example.appname", // Must be in Java package form with no dashes (ex: com.example.app)
   "fullscreen": false, // true | false
   "orientation": "default", // "portrait" | "landscape" | "default"
   "plugins": [], // (see below)
