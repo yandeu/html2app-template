@@ -1,5 +1,13 @@
 # html2app Template
 
+## ⚠️ Archived / Outdated Notice
+
+**This repository is archived and is no longer maintained.**
+
+Please note that this template is **no longer up to date**. Modern versions of [html2app.dev](https://html2app.dev) no longer use Capacitor, nor do they rely on a configuration file. 
+
+For current examples and implementation patterns, please refer to the [html2app/plugins-example](https://github.com/html2app/plugins-example) repository instead.
+
 ## Getting Started
 
 ```console
